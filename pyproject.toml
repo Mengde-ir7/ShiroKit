@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shirokit"
+version = "1.1.0"
+description = "Apache Shiro exploitation toolkit: Shiro-550 key brute force, RememberMe payloads, Shiro-721 padding oracle and auth-bypass scanner (authorized testing only)"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "M3ngde" }]
+keywords = [
+    "apache-shiro",
+    "penetration-testing",
+    "red-team",
+    "cve-2016-4437",
+    "cve-2019-12422",
+    "rememberme",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Information Technology",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+]
+
+[project.scripts]
+shirokit = "shirokit.cli:main"
+
+[tool.setuptools]
+packages = ["shirokit"]

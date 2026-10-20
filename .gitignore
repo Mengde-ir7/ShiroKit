@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.idea/
+.vscode/
+.build-java/
+.cb1-marker.txt
+demo-urldns.bin
+*.bin
+.DS_Store
