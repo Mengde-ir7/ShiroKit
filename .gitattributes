@@ -1,0 +1,7 @@
+# Keep the repository text files in UTF-8 friendly, LF-normalized form.
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.txt text eol=lf
+*.jar binary
